@@ -6,10 +6,4 @@ describe('testing', function () {
       expect(1).to.equal(1);
     });
   });
-
-  context('when asserts are violated', function(){
-    it('fails', function(){
-      expect(1).to.equal("not a number");
-    });
-  });
 });
